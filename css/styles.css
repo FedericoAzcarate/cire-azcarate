@@ -246,8 +246,18 @@ a {
     margin: 40px;
     align-items: center;
     line-height: 1.5;
+    width: 65%;
+
+}
+.recluSelec h3 {
+color: #050505;
+text-transform: uppercase;
+text-align: center;
 }
 
+.recluSelec p {
+    text-align: center;
+    }
 .reclu {
     text-transform: uppercase;
     text-align: center;
@@ -413,11 +423,10 @@ a {
 .terceroUno {
     grid-area: terceroUno;
     display: flex;
+    margin-bottom: 87px;
+    margin-left: 646px;
+    width: 33%;
     justify-content: center;
-    margin-bottom: 86px;
-    margin-right: 35px;
-    margin-left: 177px;
-    flex-direction: column;
     flex-wrap: wrap;
 }
 
@@ -431,6 +440,11 @@ a {
     align-items: center;
     margin: 20px;
     line-height: 1.5;
+    text-align: center;
+}
+
+.capacitacion p {
+    padding: 0px 80px;
 }
 
 .capacit {
@@ -710,7 +724,7 @@ a {
 }
 
 .form {
-
+    background-color: linear-gradient (to bottom, blue, #1ABC9C);
     color: #1ABC9C;
     font-weight: 500;
     text-transform: uppercase;
@@ -927,9 +941,29 @@ textarea {
         font-size: 20px;
     }
 
+    .recluSelec {
+        width: 80%;
+    
+    }
+    .capacitacion {
+        width: 80%;
+    }
+
+    .capacitacion p {
+        text-align: center;
+        padding: 0px 25px;
+        font-size: 18px;
+    }
+
     .copyReclu {
         margin: 5px 3px 10px 6px;
         font-size: 18px;
+  
+    }
+
+    .terceroUno {
+        margin: 0;
+        width: 100%;
     }
 
     /* ESTILOS ASSESSMENT CENTRE */
@@ -999,7 +1033,7 @@ textarea {
     /* ESTILOS CAPACITACION */
 
     .terceroUno {
-        margin: 0px 40px 0 40px;
+        margin: 0px 40px 0 0;
     }
     .capacit {
         margin: 13px 4px 5px;
