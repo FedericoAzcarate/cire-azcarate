@@ -42,6 +42,7 @@ nav ul li {
 a {
     text-decoration: none;
     color: #1ABC9C;
+ 
 }
 
 /* ESTILOS MAIN - HEADLINE */
@@ -226,20 +227,19 @@ a {
 }
 
 .check1 {
-    width: 50px;
-    height: 50px;
+    width: 90px;
+    height: 90px;
 }
 
-/* ESTILOS PRIMERA FILA */
+/* ESTILOS PRIMERA FILA y SEGUNDA FILA */
 .priemerosTres {
     grid-area: priemerosTres;
     display: flex;
     margin: 10px 150px 0px 150px;
 }
 
-/* RECLUTAMIENTO Y SELECCION */
 
-.recluSelec {
+.serviciosTipos {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -247,89 +247,33 @@ a {
     align-items: center;
     line-height: 1.5;
     width: 65%;
-
-}
-.recluSelec h3 {
-color: #050505;
-text-transform: uppercase;
-text-align: center;
 }
 
-.recluSelec p {
-    text-align: center;
-    }
-.reclu {
+.serviciosTipos:hover img { 
+    width: 85px;
+    height: 85px;
+    background-color: #3b08f5;
+    border-radius: 40px;
+    transform: scale(1.2);
+    transition: 0.4s;
+
+}
+
+.serviciosTipos:hover{
+    transform: scale(1.2);
+}
+
+.serviciosTipos h3 {
+    color: #050505;
     text-transform: uppercase;
     text-align: center;
-    margin: 5px 4px;
+    margin-top: 10px;
 }
 
-.copyReclu {
+.serviciosTipos p {
     text-align: center;
     color: #6d6d6d;
-    margin-top: 0px;
-    margin-left: 17px;
-    padding: 6px;
-    font-size: 16px;
-    line-height: 1.5;
 }
-
-/* RECLUTAMIENTO Y SELECCION */
-
-.assesCentre {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 20px;
-    line-height: 1.5;
-}
-
-.centre {
-    text-transform: uppercase;
-    text-align: center;
-    margin: 5px 4px;
-}
-
-.copyCentre {
-    text-align: center;
-    color: #6d6d6d;
-    margin-top: 0px;
-    padding: 6px;
-    font-size: 16px;
-    line-height: 1.5;
-    margin-left: 13px;
-}
-
-/* SCREENING TELEFÓNICO */
-
-.screenTel {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 20px;
-    line-height: 1.5;
-}
-
-.screen {
-    text-transform: uppercase;
-    text-align: center;
-    margin: 5px 4px;
-}
-
-.copyScreen {
-    text-align: center;
-    color: #6d6d6d;
-    margin-top: 0px;
-    padding: 6px;
-    font-size: 16px;
-    line-height: 1.5;
-}
-
-/* ESTILOS SEGUNDA FILA */
 
 .segundosTres {
     grid-area: segundosTres;
@@ -337,88 +281,7 @@ text-align: center;
     margin: 10px 150px 0px 150px;
 }
 
-/* ESTILOS EVALUACIONES PSICOTÉCNICAS Y DE POTENCIAL */
-
-.psicoPotencial {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 20px;
-    line-height: 1.5;
-}
-
-.evaluaciones {
-    text-transform: uppercase;
-    text-align: center;
-    margin: 5px 4px;
-}
-
-.copyEvalu {
-    text-align: center;
-    color: #6d6d6d;
-    margin-top: 0px;
-    padding: 6px;
-    font-size: 16px;
-    line-height: 1.5;
-}
-
-/* ESTILOS COACHING */
-
-.coaching {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 20px;
-    line-height: 1.5;
-}
-
-.coach {
-    text-transform: uppercase;
-    text-align: center;
-    margin: 5px 4px;
-}
-
-.copycoaching {
-    text-align: center;
-    color: #6d6d6d;
-    margin-top: 0px;
-    padding: 6px;
-    font-size: 16px;
-    line-height: 1.5;
-}
-
-/* ESTILOS CONSULTORÍA - START UP */
-
-.consultoria {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 20px;
-    line-height: 1.5;
-}
-
-.consult {
-    text-transform: uppercase;
-    text-align: center;
-    margin: 5px 4px;
-}
-
-.copyconsultoria {
-    text-align: center;
-    color: #6d6d6d;
-    margin-top: 0px;
-    padding: 6px;
-    font-size: 16px;
-    line-height: 1.5;
-}
-
-/* ESTILOS SEGUNDA FILA */
+/* ESTILOS TERCERA FILA */
 
 .terceroUno {
     grid-area: terceroUno;
@@ -443,24 +306,31 @@ text-align: center;
     text-align: center;
 }
 
+.capacitacion h3 {
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: #050505;
+    text-align: center;
+}
+
 .capacitacion p {
     padding: 0px 80px;
-}
-
-.capacit {
-    text-transform: uppercase;
-    text-align: center;
-    margin: 5px 4px;
-}
-
-.copycapacitacion {
-    text-align: center;
     color: #6d6d6d;
-    margin-bottom: 50px;
-    padding: 6px;
-    font-size: 16px;
-    line-height: 1.5;
-    width: 33%;
+}
+
+.capacitacion:hover img {
+    width: 85px;
+    height: 85px;
+    background-color: #3b08f5;
+    border-radius: 40px;
+    border-radius: 40px;
+    transform: scale(1.2);
+    transition: 0.4s;
+
+}
+
+.capacitacion:hover {
+    transform: scale(1.2);
 }
 
 /* ESTILOS PROYECTOS */
@@ -488,6 +358,12 @@ text-align: center;
     margin: 79px 100px 211px 100px;
 }
 
+.todos .mrm:hover {
+    transform: scale(1.2);
+    transition: .5s;
+}
+
+
 .uno {
     display: block;
     font-size: 24px;
@@ -495,13 +371,17 @@ text-align: center;
     text-align: center;
 }
 
-.mrm {
+.copyMrm {
     line-height: 1;
     font-size: 18px;
     font-weight: 500;
     color: #1ABC9C;
 }
 
+.todos .coop:hover {
+    transform: scale(1.2);
+    transition: .5s;
+}
 
 .dos {
     font-size: 24px;
@@ -551,6 +431,11 @@ text-align: center;
     font-weight: 500;
 }
 
+.todos .hall:hover {
+    transform: scale(1.2);
+    transition: .5s;
+}
+
 .todos2 {
     display: flex;
     justify-content: space-around;
@@ -558,11 +443,13 @@ text-align: center;
     margin: 90px 103px 140px 93px;
 }
 
+
 .bridas {
     font-size: 24px;
     text-align: center;
     line-height: 1.5;
 }
+
 
 .bridasCopy {
     text-align: center;
@@ -570,6 +457,11 @@ text-align: center;
     font-size: 18px;
     color: #1ABC9C;
     font-weight: 500;
+}
+
+.todos2 .exxo:hover {
+    transform: scale(1.2);
+    transition: .5s;
 }
 
 .medicus {
@@ -584,6 +476,11 @@ text-align: center;
     font-size: 18px;
     font-weight: 500;
     color: #1ABC9C;
+}
+
+.todos2 .medi:hover {
+    transform: scale(1.2);
+    transition: .5s;
 }
 
 /* ESTILOS CLIENTES */
@@ -616,14 +513,25 @@ text-align: center;
     align-items: center;
     margin-left: 76px;
     padding: 0px;
+   
 }
+
 
 .etapa1 span {
     padding: 30px;
     color: #1ABC9C;
     line-height: 1.5;
     font-weight: 500;
+ 
+   
 }
+
+.etapa1 span:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    color: #3b08f5;
+}
+
 
 .etapa2 {
     display: flex;
@@ -641,6 +549,13 @@ text-align: center;
     font-weight: 500;
 }
 
+.etapa2 span:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    color: #3b08f5;
+}
+
+
 .etapa3 {
     display: flex;
     flex-direction: column;
@@ -655,6 +570,12 @@ text-align: center;
     color: #1ABC9C;
     line-height: 1.5;
     font-weight: 500;
+}
+
+.etapa3 span:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    color: #3b08f5;
 }
 
 /* ESTILOS BUSQUEDAS ACTUALES */
@@ -677,6 +598,7 @@ text-align: center;
     height: 150px;
     padding: 50px;
     padding-bottom: 15px;
+    
 }
 
 .seguinos {
@@ -686,6 +608,7 @@ text-align: center;
     justify-content: space-around;
     flex-direction: row;
     margin-bottom: 178px;
+    
 }
 
 
@@ -707,6 +630,8 @@ text-align: center;
     margin-top: 10px;
 }
 
+
+
 /* ESTILOS CONTACTO */
 
 .contactanos {
@@ -724,11 +649,12 @@ text-align: center;
 }
 
 .form {
-    background-color: linear-gradient (to bottom, blue, #1ABC9C);
-    color: #1ABC9C;
+    color: #020202;
     font-weight: 500;
     text-transform: uppercase;
+    
 }
+
 
 .form2 {
     display: flex;
@@ -736,18 +662,26 @@ text-align: center;
     padding: 10px 10px 10px 10px;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .form2 p {
     padding: 10px;
+    color: #1ABC9C;
+    font-weight: 500;
 }
+
 
 .form2 input,
 textarea {
     width: 98%;
     padding: 9px;
     border: none;
-    background-color: #fff;
+}
+
+.form2 input:focus {
+    transform: scale(1.1);
+    transition: 3s;
 }
 
 .boton input {
@@ -934,31 +868,22 @@ textarea {
         margin: 0px 40px 0 40px;
     }
 
-    /* ESTILOS RECLUTAMIENTO Y SELECCION */
-    .reclu {
 
-        margin: 13px 4px 5px;
-        font-size: 20px;
+    .segundosTres {
+        flex-direction: column;
+        margin: 0px 40px 0 40px;
     }
 
-    .recluSelec {
-        width: 80%;
-    
-    }
-    .capacitacion {
+    .serviciosTipos {
         width: 80%;
     }
 
-    .capacitacion p {
-        text-align: center;
-        padding: 0px 25px;
-        font-size: 18px;
+    .serviciosTipos h3 {
+        font-size: 22px;
     }
 
-    .copyReclu {
-        margin: 5px 3px 10px 6px;
+    .serviciosTipos p {
         font-size: 18px;
-  
     }
 
     .terceroUno {
@@ -966,83 +891,18 @@ textarea {
         width: 100%;
     }
 
-    /* ESTILOS ASSESSMENT CENTRE */
-
-    .centre {
-        margin: 13px 4px 5px;
-        font-size: 20px;
+    .capacitacion {
+        width: 80%;
     }
 
-    .copyCentre {
-        margin: 5px 2px 10px 2px;
+    .capacitacion h3 {
+        font-size: 22px;
+    }
+
+    .capacitacion p {
+        text-align: center;
+        padding: 0px 25px;
         font-size: 18px;
-
-    }
-
-    /* ESTILOS SCREANING TELEFONICO */
-
-    .screen {
-        margin: 13px 4px 5px;
-        font-size: 20px;
-    }
-
-    .copyScreen {
-        font-size: 18px;
-        margin: 5px 2px 10px 2px;
-    }
-
-    .segundosTres {
-        flex-direction: column;
-        margin: 0px 40px 0 40px;
-    }
-
-    /* ESTILOS ESTILOS EVALUACIONES PSICOTECNICAS */
-    .evaluaciones {
-        margin: 13px 14px 5px 26px;
-        font-size: 20px;
-    }
-
-    .copyEvalu {
-        font-size: 18px;
-        margin: 5px 21px 10px 21px;
-    }
-
-    /* ESTILOS ESTILOS COACHING */
-    .coach {
-        margin: 13px 4px 5px;
-        font-size: 20px;
-    }
-
-    .copycoaching {
-        margin: 0px 21px 10px 21px;
-        font-size: 18px;
-
-    }
-
-    /* ESTILOS CONSULTORIA - START UP */
-    .consult {
-        margin: 13px 4px 5px;
-        font-size: 20px;
-    }
-
-    .copyconsultoria {
-        font-size: 18px;
-        margin: 5px 5px 10px 5px;
-    }
-
-    /* ESTILOS CAPACITACION */
-
-    .terceroUno {
-        margin: 0px 40px 0 0;
-    }
-    .capacit {
-        margin: 13px 4px 5px;
-        font-size: 20px;
-    }
-
-    .copycapacitacion {
-        font-size: 18px;
-        width: 100%;
     }
 
     /* ESTILOS PROYECTOS */
