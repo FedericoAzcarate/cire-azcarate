@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    max-width: 100%;
+
 }
 
 /* ESTILOS GENERALES */
@@ -17,8 +17,6 @@ body {
     grid-template-columns: auto auto auto;
     grid-auto-flow: column;
     grid-template-areas:
-        "nav-style nav-style nav-style"
-        "Headline Headline Headline"
         "nosotrosSomos nosotrosSomos nosotrosSomos";
 }
 
@@ -58,21 +56,13 @@ nav ul li {
 
 /* ESTILOS MAIN - HEADLINE - NOSOTROS */
 
-.headline {
-    grid-area: headline;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    line-height: 1.5;
-    padding-bottom: 10px;
-}
 
 .nosotros {
     margin-top: 30px;
     font-size: 30px;
     text-transform: uppercase;
     font-weight: 700;
+    text-align: center;
 }
 
 .cire {
@@ -85,13 +75,18 @@ nav ul li {
     font-size: 20px;
     margin-left: 69px;
     margin-right: 87px;
+    font-weight: 600;
 }
 
 
 .nosotrosSomos {
-    grid-area: nosotrosSomos;
     display: flex;
     margin: 10px 150px 0px 150px;
+    margin-bottom: 86px;
+    max-width: 100vw;
+    justify-content: space-around;
+
+
 }
 
 
@@ -154,18 +149,21 @@ nav ul li {
     align-items: center;
     line-height: 1.5;
     padding-bottom: 10px;
+    
 }
 
 .servicios {
     margin-top: 30px;
     font-size: 30px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .copyServ {
     text-align: center;
     color: #414040;
     font-size: 20px;
+    font-weight: 600;
 }
 
 .check1 {
@@ -279,13 +277,14 @@ nav ul li {
     font-size: 30px;
     text-transform: uppercase;
     font-weight: 700;
+    text-align: center;
 }
 
 .copyProye {
     text-align: center;
     color: #414040;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .destacados {
@@ -317,6 +316,10 @@ nav ul li {
     border: #050505 2px solid;
 }
 
+.tamañoCard {
+    width: 400px;
+}
+
 .col {
     margin-bottom: 2vh;
 
@@ -333,6 +336,7 @@ nav ul li {
     margin-top: 30px;
     font-size: 30px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .trabajo {
@@ -340,13 +344,15 @@ nav ul li {
     color: #414040;
     font-size: 20px;
     line-height: 2;
+    font-weight: 600;
 }
 
 .clientes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 40px;
+    margin: 10px 150px 10px 150px;
+    padding: 0px 192px 0px 68px;
 }
 
 .etapa1 {
@@ -355,14 +361,13 @@ nav ul li {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    margin-left: 76px;
     padding: 0px;
 
 }
 
 
 .etapa1 span {
-    padding: 30px;
+    margin: 30px;
     color: #1ABC9C;
     line-height: 1.5;
     font-weight: 500;
@@ -382,12 +387,11 @@ nav ul li {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    margin-right: 67px;
     padding: 0px;
 }
 
 .etapa2 span {
-    padding: 30px;
+    margin: 30px;
     color: #1ABC9C;
     line-height: 1.5;
     font-weight: 500;
@@ -405,12 +409,11 @@ nav ul li {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    margin-right: 125px;
     padding: 0px;
 }
 
 .etapa3 span {
-    padding: 30px;
+    margin: 30px;
     color: #1ABC9C;
     line-height: 1.5;
     font-weight: 500;
@@ -429,6 +432,7 @@ nav ul li {
     font-size: 30px;
     text-transform: uppercase;
     font-weight: 700;
+    text-align: center;
 }
 
 .oportunidades {
@@ -436,6 +440,7 @@ nav ul li {
     color: #414040;
     font-size: 20px;
     line-height: 1.5;
+    font-weight: 600;
 }
 
 .icons {
@@ -475,6 +480,7 @@ nav ul li {
     font-size: 30px;
     text-transform: uppercase;
     font-weight: 700;
+    text-align: center;
 }
 
 .dudas {
@@ -575,10 +581,15 @@ form {
         flex-wrap: wrap;
         margin: 0;
 
+
     }
 
     .cajaNosotros {
         width: 100%;
+    }
+
+    .imgSize {
+        width: 310px;
     }
 
     .nosotrosSomos h3 {
@@ -586,34 +597,36 @@ form {
         padding-top: 10px;
         text-align: center;
         font-size: 24px;
-    
+
+
     }
-    
+
     .nosotrosSomos span {
         text-align: center;
         color: #1ABC9C;
         font-size: 20px;
         font-weight: 500;
-    
+
     }
-    
+
     .nosotrosSomos p {
         text-align: center;
         color: #464545;
         font-size: 18px;
-     margin: 0px 10px 0px 10px;
+        margin: 0px 10px 0px 10px;
     }
-    
+
     .textoSomos {
         text-align: center;
         color: #414040;
         font-size: 20px;
         margin-left: 40px;
         margin-right: 40px;
-   
+
+
     }
 
-  /* ESTILOS SERVICIOS */
+    /* ESTILOS SERVICIOS */
 
     .servicios {
         margin-top: 30px;
@@ -625,23 +638,23 @@ form {
         text-align: center;
         color: #414040;
         font-size: 20px;
-        margin: 0px 20px 0px 12px;
+        margin: 0px 44px 0px 44px;
     }
-  
+
 
     .priemerosTres {
         flex-direction: column;
-        margin: 0px 40px 0 40px;
+        margin: 0px 30px 0px 0px;
     }
 
 
     .segundosTres {
         flex-direction: column;
-        margin: 0px 40px 0 40px;
+        margin: 0px 30px 0px 0px;
     }
 
     .serviciosTipos {
-        width: 80%;
+        width: 86%;
     }
 
     .serviciosTipos h3 {
@@ -654,7 +667,7 @@ form {
 
     .terceroUno {
         margin: 0;
-        width: 100%;
+        width: 97%;
     }
 
     .capacitacion {
@@ -677,36 +690,50 @@ form {
         margin: 0px 20px 0px 18px;
     }
 
+    .tamañoCard {
+        width: 376px;
+    }
+    
+
 
     /* ESTILOS CLIENTES */
 
-    .etapa1 {
-        text-align: center;
-        margin-left: 0px;
-        font-size: 23px;
+    .clientes {
+
+        margin: 0;
+        padding: 0;
     }
+
+    .etapa1 {
+        font-size: 18px;
+        text-align: center;
+        margin: auto;
+    }
+
 
     .etapa2 {
+        font-size: 18px;
         text-align: center;
-        margin-left: 67px;
-        font-size: 23px;
+        margin: auto;
     }
 
+
     .etapa3 {
+        font-size: 18px;
         text-align: center;
-        margin-left: 123px;
-        font-size: 23px;
+        margin: auto;
     }
+
+
 
     /* ESTILOS BUSQUEDAS ACTUALES */
 
     .oportunidades {
-        margin-right: 64px;
-        margin-left: 64px;
         text-align: center;
         color: #414040;
         font-size: 20px;
-        line-height: 1.5;
+        line-height: 2;
+        padding: 0px 61px 0 61px;
     }
 
     .seguinos {
@@ -765,3 +792,4 @@ form {
         flex-direction: row;
     }
 }
+
