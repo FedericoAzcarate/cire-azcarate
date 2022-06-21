@@ -1,0 +1,43 @@
+header {
+    background-color: #414040;
+}
+
+.fondoNav {
+    background-color: #414040 !important;
+}
+
+.navDesk {
+    justify-content: flex-end;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 40px 22px;
+    text-transform: uppercase;
+    line-height: 22px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #1ABC9C;
+
+    &:hover {
+        color: #16066d;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .navDesk {
+        text-align: center;
+    }
+
+    li {
+        font-size: 18px;
+        padding: 25px;
+    }
+
+}

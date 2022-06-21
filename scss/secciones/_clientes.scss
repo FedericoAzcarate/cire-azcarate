@@ -1,0 +1,63 @@
+main {
+    .nuestro {
+        margin-top: 30px;
+        font-size: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .trabajo {
+        text-align: center;
+        color: #414040;
+        font-size: 20px;
+        line-height: 2;
+        font-weight: 600;
+    }
+
+    .clientes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 10px 150px 10px 150px;
+        padding: 0px 192px 0px 68px;
+    }
+
+    .etapa1,
+    .etapa2,
+    .etapa3 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 0px;
+
+        span {
+            margin: 30px;
+            color: #1ABC9C;
+            line-height: 1.5;
+            font-weight: 500;
+
+            &:hover {
+                transform: scale(1.2);
+                transition: 1s;
+                color: #3b08f5;
+            }
+        }
+    }
+
+    @media (max-width: 480px) {
+        .clientes {
+            margin: 0;
+            padding: 0;
+        }
+
+        .etapa1,
+        .etapa2,
+        .etapa3 {
+            font-size: 18px;
+            text-align: center;
+            margin: auto;
+        }
+    }
+}
