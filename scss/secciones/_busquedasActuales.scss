@@ -33,7 +33,7 @@ main {
         flex-wrap: wrap;
         justify-content: space-around;
         flex-direction: row;
-        margin-bottom: 178px;
+        margin-bottom: 191px;
     }
 
     .iconsPadre h3 {
@@ -41,6 +41,19 @@ main {
         text-align: center;
         margin-top: 15px;
     }
+
+    @media (max-width: 1000px) {
+        .seguinos {
+            flex-direction: column;
+            margin-top: 90px;
+            margin-bottom: 90px;
+        }
+
+        .iconsPadre {
+            margin-bottom: 5%;
+        }
+    }
+
     @media (max-width: 480px) {
 
         .oportunidades {
@@ -49,19 +62,19 @@ main {
             font-size: 20px;
             line-height: 2;
             padding: 0px 61px 0 61px;
-          }
-          
-          .seguinos {
+        }
+
+        .seguinos {
             margin-top: 42px;
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
             flex-direction: row;
             margin-bottom: 50px;
-          }
-          
-          .iconsPadre {
+        }
+
+        .iconsPadre {
             margin-bottom: 50px;
-          }
+        }
     }
 }

@@ -50,11 +50,17 @@ main {
     .col {
         margin-bottom: 2vh;
 
-        &:hover {
-            transform: scale(1.1);
-            transition: .5s;
+
+    }
+
+    @media (max-width: 1400px) {
+
+        .tamañoCard {
+            width: auto;
         }
     }
+
+
 
     @media (max-width: 480px) {
         .copyProye {
@@ -65,4 +71,6 @@ main {
             width: auto;
         }
     }
+
+
 }
