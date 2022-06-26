@@ -90,6 +90,12 @@ main p {
   margin: 0px 5px 0px 5px;
   font-size: 16px; }
 
+@media (max-width: 1000px) {
+  main .row-cols-md-3 > * {
+    width: 100%; }
+  main .imgSize {
+    width: auto; } }
+
 @media (max-width: 480px) {
   main .textoSomos {
     text-align: center;
