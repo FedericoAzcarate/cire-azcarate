@@ -1,0 +1,30 @@
+Se agrego SEO en todos los sitios de mi proyecto. 
+
+Description
+	Index: Un equipo interdisciplinario de profesionales provenientes de prestigiosas organizaciones y del mundo de la consultoría.
+	Servicios: Construcción de relaciones de largo plazo con nuestros clientes, brindando soluciones de calidad y ajustadas a las necesidades específicas de cada cliente.
+	Proyectos: Algunos de los proyectos destacados en los cuales participamos.
+	Clientes: Clientes que confian en nuestro trabajo.
+	Busquedas Actuales: Conoce las oportunidades en nuestras redes.
+	Contacto: Completá los siguientes campos y ponete en contacto con nosotros.
+
+Palabras Claves
+
+	Index: recusos humanos, profesionales, consultoria, asesoramiento, cire rh
+	Servicios: servicios, reclutamiento, selección, coaching, evaluaciones, potencial, capacitación
+	Proyectos: proyectos, destacados, tiempo de proyecto, nacional, posiciones
+	Clientes: cire rh, trabajos, clientes, proyectos
+	Busquedas Actuales: cire rh, trabajo, busquedas actuales, redes sociales, oportunidades
+	Contacto: cire rh, contacto, oportunidades, trabajo
+
+Encabezados:
+
+	Index: nosotros somos CIRE
+	Servicios: Servicios
+	Proyectos: Proyectos
+	Clientes: Nuestros clientes
+	Busquedas Actuales: Búsquedas actuales
+	Contacto: Contactanos
+
+
+Tambien se creo la carpeta pages y dentro se colocaron todos los htmls correspondientes al sitio menos el index

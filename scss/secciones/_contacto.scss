@@ -25,16 +25,23 @@ main {
         color: #1ABC9C;
     }
 
+
     .textoBoton {
         color: #1ABC9C;
         background-color: #414040;
+        width: 6rem;
+        height: 3rem;
+        text-align: center;
+        letter-spacing: 1px;
+        border-color: #414040;
 
         &:hover {
-            background-color: #16066d;
+            background-color: #1ABC9C;
+            border-color: #1ABC9C;
         }
     }
 
     .cajaboton{
-        margin-bottom: 10px;
+        margin-bottom: 23px;
     }
 }

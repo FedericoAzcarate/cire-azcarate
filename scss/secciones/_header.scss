@@ -11,13 +11,8 @@ header {
 }
 
 li {
-    list-style: none;
-    display: inline;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 40px 22px;
-    text-transform: uppercase;
-    line-height: 22px;
+    @include headerTexto (16px, uppercase);
+
 }
 
 .nav-item a {
@@ -29,9 +24,14 @@ li {
     }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1000px) {
     .navDesk {
         text-align: center;
+    }
+
+    li {
+        margin: auto;
+        padding: 18px;
     }
 
 }

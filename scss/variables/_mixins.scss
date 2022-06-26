@@ -1,0 +1,37 @@
+//---------HEADER--------------// 
+
+@mixin headerTexto ($tamanioLetra, $mayuscula) {
+    list-style: none;
+    display: inline;
+    font-size: $tamanioLetra;
+    font-weight: bold;
+    padding: 22px 22px;
+    text-transform: $mayuscula;
+    line-height: 22px;
+    text-align: center;
+}
+
+//---------INDEX--------------// 
+@mixin subtitleCaja ($colorSubtitle, $tamanioLetra) {
+    text-align: center;
+    color: $colorSubtitle;
+    font-size: $tamanioLetra;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+@mixin titleCaja ($bold, $tamanio-letra-title) {
+    padding-top: 10px;
+    text-align: center;
+    font-weight: $bold;
+    letter-spacing: 1px;
+    font-size: $tamanio-letra-title;
+    text-transform: uppercase;
+}
+
+@mixin textoCaja ($colorTexto, $alineacionTexto) {
+    text-align: $alineacionTexto;
+    color: $colorTexto;
+    margin: 0px 14px 0px 14px;
+    font-size: 18px;
+}
