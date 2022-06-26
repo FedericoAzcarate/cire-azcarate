@@ -92,9 +92,7 @@ main p {
 
 @media (max-width: 1000px) {
   main .row-cols-md-3 > * {
-    width: 100%; }
-  main .imgSize {
-    width: auto; } }
+    width: 100%; } }
 
 @media (max-width: 480px) {
   main .textoSomos {
