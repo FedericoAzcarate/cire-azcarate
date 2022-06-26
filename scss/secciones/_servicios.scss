@@ -13,13 +13,29 @@ main {
     font-size: 20px;
     font-weight: 600;
   }
+
   .check1 {
     width: 90px;
     height: 90px;
   }
+
   .serviciosBox {
     margin-top: 4%;
     margin-bottom: 4%;
+  }
+  .cardsServicios {
+    background-color: #d8d5d5;
+    border: none;
+  }
+  h5 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 18px;
+    text-align: center;
+    color: #464545;
   }
 
   @media (max-width: 480px) {
@@ -34,6 +50,14 @@ main {
       color: #414040;
       font-size: 20px;
       margin: 0px 44px 0px 44px;
+    }
+
+    h5 {
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 20px;
     }
   }
 }
