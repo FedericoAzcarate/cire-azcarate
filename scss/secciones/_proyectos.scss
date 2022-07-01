@@ -6,6 +6,7 @@ main {
         text-transform: uppercase;
         font-weight: 700;
         text-align: center;
+    
     }
 
     .copyProye {
@@ -31,35 +32,34 @@ main {
         h5 {
             color: #1ABC9C;
             font-weight: 500;
+            padding: 10px 0px 10px 0px;
         }
 
         p {
             color: #111f90;
+            padding: 5px 20px 5px 20px;
         }
     }
 
     .colorCards {
-        background-color: #4242423d;
-        border: #050505 2px solid;
+        border: #050505 1px solid;
     }
 
     .tamañoCard {
         width: 400px;
     }
 
-    .col {
-        margin-bottom: 2vh;
-    }
 
     @media (max-width: 1400px) {
         .cards {
             flex-direction: column;
             flex-wrap: wrap;
             align-content: center;
+            
         }
 
         .tamañoCard {
-            width: 300px;
+            width: 400px;
         }
     }
 
@@ -73,10 +73,12 @@ main {
             flex-direction: column;
             flex-wrap: wrap;
             align-content: center;
+            margin-top: 10%;
+            margin-bottom: 10%;
         }
 
         .tamañoCard {
-            width: auto;
+            width: 300px;
         }
     }
 

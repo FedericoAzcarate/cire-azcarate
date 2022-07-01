@@ -38,7 +38,7 @@ li {
   display: inline;
   font-size: 16px;
   font-weight: bold;
-  padding: 22px 22px;
+  padding: 20px 20px;
   text-transform: uppercase;
   line-height: 22px;
   text-align: center; }
@@ -191,19 +191,17 @@ main .cards {
   background-color: #d8d5d5; }
   main .cards h5 {
     color: #1ABC9C;
-    font-weight: 500; }
+    font-weight: 500;
+    padding: 10px 0px 10px 0px; }
   main .cards p {
-    color: #111f90; }
+    color: #111f90;
+    padding: 5px 20px 5px 20px; }
 
 main .colorCards {
-  background-color: #4242423d;
-  border: #050505 2px solid; }
+  border: #050505 1px solid; }
 
 main .tamañoCard {
   width: 400px; }
-
-main .col {
-  margin-bottom: 2vh; }
 
 @media (max-width: 1400px) {
   main .cards {
@@ -211,7 +209,7 @@ main .col {
     flex-wrap: wrap;
     align-content: center; }
   main .tamañoCard {
-    width: 300px; } }
+    width: 400px; } }
 
 @media (max-width: 480px) {
   main .copyProye {
@@ -219,9 +217,11 @@ main .col {
   main .cards {
     flex-direction: column;
     flex-wrap: wrap;
-    align-content: center; }
+    align-content: center;
+    margin-top: 10%;
+    margin-bottom: 10%; }
   main .tamañoCard {
-    width: auto; } }
+    width: 300px; } }
 
 main .nuestro {
   margin-top: 30px;
