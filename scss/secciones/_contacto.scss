@@ -38,10 +38,13 @@ main {
         &:hover {
             background-color: #1ABC9C;
             border-color: #1ABC9C;
+            transition: .2s;
+            transform: scale(1.1);
         }
     }
 
     .cajaboton{
         margin-bottom: 23px;
+
     }
 }

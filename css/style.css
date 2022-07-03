@@ -198,7 +198,7 @@ main .cards {
     padding: 5px 20px 5px 20px; }
 
 main .colorCards {
-  border: #050505 1px solid; }
+  border: none; }
 
 main .tamañoCard {
   width: 400px; }
@@ -308,7 +308,9 @@ main .textoBoton {
   border-color: #414040; }
   main .textoBoton:hover {
     background-color: #1ABC9C;
-    border-color: #1ABC9C; }
+    border-color: #1ABC9C;
+    transition: .2s;
+    transform: scale(1.1); }
 
 main .cajaboton {
   margin-bottom: 23px; }
