@@ -24,6 +24,10 @@ main .nosotros {
   font-weight: 700;
   text-align: center; }
 
+main .cardsIndex {
+  background-color: #d8d5d5;
+  border: none; }
+
 header {
   background-color: #414040; }
 
@@ -68,10 +72,6 @@ main .cire {
 
 main .nosotrosBox {
   margin: 4% 0 0 4%; }
-
-main .cardsIndex {
-  background-color: #d8d5d5;
-  border: none; }
 
 main h3 {
   padding-top: 10px;
