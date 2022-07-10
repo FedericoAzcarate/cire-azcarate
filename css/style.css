@@ -365,7 +365,7 @@ main .iconsPadre h3 {
     color: #414040;
     font-size: 20px;
     line-height: 2;
-    padding: 0px 61px 0 61px; }
+    margin: auto; }
   main .seguinos {
     margin-top: 42px;
     display: flex;
