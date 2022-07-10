@@ -374,7 +374,13 @@ main .iconsPadre h3 {
     flex-direction: row;
     margin-bottom: 50px; }
   main .iconsPadre {
-    margin-bottom: 50px; } }
+    margin-bottom: 50px; }
+  main .ig {
+    margin: auto; }
+  main .fb {
+    margin: auto; }
+  main .ln {
+    margin: auto; } }
 
 footer .caja {
   height: 116px;
